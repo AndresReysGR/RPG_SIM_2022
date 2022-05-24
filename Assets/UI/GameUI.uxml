@@ -1,24 +1,24 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="GameUI.uss" />
-    <ui:VisualElement name="container" class="container" style="bottom: 20px;">
-        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px;">
+    <Style src="project://database/Assets/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=0836b44a1ad176d4891109a0ca162ba2&amp;type=3#GameUI" />
+    <ui:VisualElement name="container" class="container" style="bottom: 20px; border-left-color: rgb(19, 238, 98); border-right-color: rgb(19, 238, 98); border-top-color: rgb(19, 238, 98); border-bottom-color: rgb(19, 238, 98); height: 277px;">
+        <ui:VisualElement name="partyContainer" class="partyContainer" style="height: 266px; bottom: -2px; width: 1065px; background-color: rgb(217, 110, 26); border-left-color: rgb(255, 190, 0); border-right-color: rgb(255, 190, 0); border-top-color: rgb(255, 190, 0); border-bottom-color: rgb(255, 190, 0);">
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/MaggieFace.png?fileID=2800000&amp;guid=b634f4eff177c7740a1330d54274ab8e&amp;type=3#MaggieFace&apos;);" />
                 <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <uie:ProgressBar name="health" low-value="50" focusable="false" title="Health" class="health" style="border-left-color: rgb(25, 229, 42); border-right-color: rgb(25, 229, 42); border-top-color: rgb(25, 229, 42); border-bottom-color: rgb(25, 229, 42); -unity-background-image-tint-color: rgb(30, 236, 85); color: rgb(48, 192, 71); -unity-text-outline-color: rgb(28, 241, 48); background-color: rgb(20, 226, 40); opacity: 1; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px;" />
+                <uie:ProgressBar name="mana" low-value="40" title="Mana" style="border-left-color: rgb(20, 211, 255); border-right-color: rgb(20, 211, 255); border-top-color: rgb(20, 211, 255); border-bottom-color: rgb(20, 211, 255); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; -unity-text-outline-color: rgba(0, 226, 255, 255);" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/LisaFace.png?fileID=2800000&amp;guid=c35a10fc8bd8f9d4c8dcdc77ec10ffca&amp;type=3#LisaFace&apos;);" />
+                <ui:Label text="Lisa" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" low-value="90" title="Health" class="health" style="border-left-color: rgb(13, 245, 44); border-right-color: rgb(13, 245, 44); border-top-color: rgb(13, 245, 44); border-bottom-color: rgb(13, 245, 44); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; -unity-text-outline-color: rgba(6, 255, 24, 255);" />
+                <uie:ProgressBar name="mana" low-value="60" title="Mana" style="border-left-color: rgb(0, 238, 250); border-right-color: rgb(0, 238, 250); border-top-color: rgb(0, 238, 250); border-bottom-color: rgb(0, 238, 250); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; -unity-text-outline-color: rgba(0, 209, 255, 255);" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
-                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;/Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
+                <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/BartFace.png?fileID=2800000&amp;guid=2e509e69632f820408e5377cd1bec97d&amp;type=3#BartFace&apos;);" />
+                <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <uie:ProgressBar name="health" low-value="30" title="Health" class="health" style="border-left-color: rgb(0, 255, 12); border-right-color: rgb(0, 255, 12); border-top-color: rgb(0, 255, 12); border-bottom-color: rgb(0, 255, 12); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; -unity-text-outline-color: rgba(8, 255, 13, 255);" />
+                <uie:ProgressBar name="mana" low-value="80" title="Mana" focusable="false" style="border-left-color: rgb(4, 227, 255); border-right-color: rgb(4, 227, 255); border-top-color: rgb(4, 227, 255); border-bottom-color: rgb(4, 227, 255); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; -unity-text-outline-color: rgba(8, 243, 255, 255);" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pcamera
   - UI
+  - Hero
   layers:
   - Default
   - TransparentFX
